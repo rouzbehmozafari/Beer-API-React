@@ -43,16 +43,20 @@ a:-webkit-any-link {
   -ms-grid-columns: .3fr .7fr;
       grid-template-columns: .3fr .7fr;
   padding: 3%;
-  height: 30%;
+  height: 70vh;
   border-bottom: gray solid 2px;
+  place-content: center;
 }
 
-.BeerCard img {
-  width: 100%;
+.BeerCard .bImg {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  min-width: 130px;
+  text-align: center;
+}
+
+.BeerCard .bImg img {
+  width: 100%;
 }
 
 .BeerCard .infoCover {
@@ -108,12 +112,46 @@ a:-webkit-any-link {
 }
 
 .CardDetailsPage {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  color: #484848;
+  padding: 20% 0 0 20%;
   text-align: center;
   padding: 3%;
 }
 
-.CardDetailsPage img:nth-of-type(1) {
-  width: 80%;
+.CardDetailsPage p:nth-of-type(1) {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.CardDetailsPage p:nth-of-type(2) {
+  color: #FFCA41;
+  font-weight: bolder;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+
+.CardDetailsPage p:nth-of-type(3) {
+  font-size: 15;
+  margin-bottom: 30px;
+}
+
+.CardDetailsPage p:nth-of-type(4) {
+  background-color: #FFCA41;
+  font-weight: bolder;
+  margin-left: 20px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  display: inline-block;
+  color: white;
+  font-size: 25px;
+}
+
+.CardDetailsPage .detailImg {
+  height: 40vh;
+  width: auto;
 }
 
 .Back {

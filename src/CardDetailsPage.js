@@ -9,7 +9,7 @@ const CardDetailsPage = () => {
     let ncard = card.filter(a=> a._id == id)
     return ( <div className="CardDetailsPage">
         <div className="CardDetails">
-        <img src={ncard[0].image_url} alt="img" />
+        <img className="detailImg" src={ncard[0].image_url} alt="img" />
         <div className="infoCover">
             <p>{ncard[0].name}</p>
             <p>{ncard[0].tagline}</p>

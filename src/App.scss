@@ -40,16 +40,19 @@ a:-webkit-any-link {
     display: grid;
     grid-template-columns: .3fr .7fr;
     padding: 3%;
-    height: 30%;
+    height: 70vh;
     border-bottom: gray solid 2px;
-
-    img{
-        width: 100%;
+    place-content: center;
+    .bImg{
         align-self: center;
-        min-width: 130px;
-        // height: 50%;
+        // height: 300px;
+        text-align: center;
+        img{
+            width: 100%;
+            // height: auto;
+        }
     }
-    .infoCover{
+    .infoCover {
         align-self: center;
         color: rgb(72, 72, 72);
         padding: 20% 0 0 20%;
@@ -95,10 +98,38 @@ a:-webkit-any-link {
     }
 }
 .CardDetailsPage {
+    align-self: center;
+        color: rgb(72, 72, 72);
+        padding: 20% 0 0 20%;
+        p:nth-of-type(1){
+            font-size: 35px;
+            font-weight: bold;
+        }
+        p:nth-of-type(2){
+            color: $myYellow;
+            font-weight: bolder;
+            margin-bottom: 25px;
+            font-size: 20px;
+        }
+        p:nth-of-type(3){
+            font-size: 15;
+            margin-bottom: 30px;
+        }
+        p:nth-of-type(4){
+            background-color: $myYellow;
+            font-weight: bolder;
+            margin-left: 20px;
+            padding: 5px 10px;
+            border-radius: 20px;
+            display: inline-block;
+            color: white;
+            font-size: 25px;
+        }
     text-align: center;
     padding: 3%;
-    img:nth-of-type(1){
-        width: 80%;
+    .detailImg{
+        height: 40vh;
+        width: auto;
     }
 
 }

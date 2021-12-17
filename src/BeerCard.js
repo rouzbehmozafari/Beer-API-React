@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
 const BeerCard = (props) => {
     return ( <div className="BeerCard">
-        <img src={props.src} alt="BeerImg" />
+        <div className="bImg"><img src={props.src} alt="BeerImg" /></div>
+        
         <div className="infoCover">
             <p>{props.name}</p>
             <p>{props.tagline}</p>
