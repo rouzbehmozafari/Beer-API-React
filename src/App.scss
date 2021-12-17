@@ -44,12 +44,14 @@ a:-webkit-any-link {
     border-bottom: gray solid 2px;
     place-content: center;
     .bImg{
+        // padding-top: 100px;
+        // padding-bottom: 100px;
         align-self: center;
-        // height: 300px;
         text-align: center;
         img{
-            width: 100%;
-            // height: auto;
+            // max-height: 400px;
+            // width: auto;
+            
         }
     }
     .infoCover {

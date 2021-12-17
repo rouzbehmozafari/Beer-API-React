@@ -55,10 +55,6 @@ a:-webkit-any-link {
   text-align: center;
 }
 
-.BeerCard .bImg img {
-  width: 100%;
-}
-
 .BeerCard .infoCover {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
