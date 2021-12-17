@@ -23,6 +23,11 @@ a:-webkit-any-link {
     .all {
         padding: 5%;
         .yellarea{
+            color: white;
+            p:nth-of-type(1){
+                font-size: 25px;
+                font-weight: bold;
+            }
             background-color: $myYellow;
             padding: 10px 0;
             p {
