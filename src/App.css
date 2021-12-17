@@ -45,7 +45,6 @@ a:-webkit-any-link {
   padding: 3%;
   height: 70vh;
   border-bottom: gray solid 2px;
-  place-content: center;
 }
 
 .BeerCard .bImg {
@@ -55,12 +54,17 @@ a:-webkit-any-link {
   text-align: center;
 }
 
+.BeerCard .bImg img {
+  max-height: 400px;
+  width: auto;
+}
+
 .BeerCard .infoCover {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
   color: #484848;
-  padding: 20% 0 0 20%;
+  padding: 10% 0 0 20%;
 }
 
 .BeerCard .infoCover p:nth-of-type(1) {
