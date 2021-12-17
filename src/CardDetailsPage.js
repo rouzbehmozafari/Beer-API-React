@@ -1,12 +1,10 @@
 import { useParams } from "react-router-dom";
-import CardDetails from "./CardDetails";
-import { v4 as uuidv4 } from 'uuid';
 import Back from "./Back";
 import {card} from './DataBase'
 const CardDetailsPage = () => {
     let {id} = useParams()
     
-    let ncard = card.filter(a=> a._id == id)
+    let ncard = card.filter(a=> a._id === id)
     return ( <div className="CardDetailsPage">
         <div className="CardDetails">
         <img className="detailImg" src={ncard[0].image_url} alt="img" />
