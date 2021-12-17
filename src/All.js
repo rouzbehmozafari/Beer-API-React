@@ -18,6 +18,7 @@ class All extends React.Component {
     render() { 
         return (<div className="All">
             {this.state.dataBase.map(a => <BeerCard 
+                id = {a._id}
                 key = {uuidv4()}
                 src = {a.image_url}
                 name = {a.name}

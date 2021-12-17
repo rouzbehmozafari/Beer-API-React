@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;700&display=swap");
+a:-webkit-any-link {
+  text-decoration: none;
+  color: inherit;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -94,5 +99,18 @@
   width: 70px;
   margin: auto auto;
   display: block;
+}
+
+.CardDetailsPage {
+  text-align: center;
+  padding: 3%;
+}
+
+.CardDetailsPage img:nth-of-type(1) {
+  width: 80%;
+}
+
+.backimg {
+  width: 70px;
 }
 /*# sourceMappingURL=App.css.map */

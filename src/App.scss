@@ -3,6 +3,11 @@
 $myYellow : #FFCA41;
 $myFont: 'Roboto Slab', serif;
 
+
+a:-webkit-any-link {
+    text-decoration: none;
+    color: inherit;
+  }
 * {
     margin:  0;
     padding: 0;
@@ -83,4 +88,15 @@ $myFont: 'Roboto Slab', serif;
         margin: auto auto;
         display: block;
     }
+}
+.CardDetailsPage {
+    text-align: center;
+    padding: 3%;
+    img:nth-of-type(1){
+        width: 80%;
+    }
+
+}
+.backimg{
+    width: 70px;
 }
