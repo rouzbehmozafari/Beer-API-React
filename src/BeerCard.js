@@ -4,7 +4,7 @@ const BeerCard = (props) => {
         <div className="infoCover">
             <p>{props.name}</p>
             <p>{props.tagline}</p>
-            <p>Created by: {props.name}</p>
+            <p>Created by: {props.namec}</p>
             <p>Details</p>
         </div>
     </div> );

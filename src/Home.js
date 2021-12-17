@@ -2,7 +2,6 @@ import React from 'react';
 import all from './images/all.jpg'
 import random from './images/random.png'
 import { Link } from 'react-router-dom';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
  
 class Home extends React.Component {

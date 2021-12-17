@@ -22,7 +22,7 @@ class All extends React.Component {
                 src = {a.image_url}
                 name = {a.name}
                 tagline = {a.tagline}
-                name = {a.name}
+                namec = {a.name}
             />)}
             <HomeButt/>
         </div>);
