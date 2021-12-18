@@ -1,9 +1,16 @@
 import { Link } from 'react-router-dom';
 import back from './images/Back.svg'
+import React from 'react';
+
+
 const Back = () => {
     return ( <div className="Back">
-        <Link to='../' ><img className='backimg' src={back} alt="back" /></Link>
+        <Link to='/All' ><img className='backimg' src={back} alt="back" /></Link>
     </div> );
 }
  
 export default Back;
+
+
+
+ 
