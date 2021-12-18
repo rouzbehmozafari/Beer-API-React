@@ -4,14 +4,12 @@ import All from './All';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './Home';
 import CardDetailsPage from './CardDetailsPage';
+import ApiData from './ApiData';
 class App extends React.Component {
-  state = {
-
-  }
-
   render() { 
     return (
       <div className="App">
+        <ApiData/>
         <Router>
           <Routes>
             <Route path='/' element= {<Home/>} />

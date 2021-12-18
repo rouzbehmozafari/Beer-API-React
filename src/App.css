@@ -43,7 +43,6 @@ a:-webkit-any-link {
   -ms-grid-columns: .3fr .7fr;
       grid-template-columns: .3fr .7fr;
   padding: 3%;
-  height: 70vh;
   border-bottom: gray solid 2px;
 }
 
@@ -56,7 +55,6 @@ a:-webkit-any-link {
 
 .BeerCard .bImg img {
   max-height: 400px;
-  width: auto;
 }
 
 .BeerCard .infoCover {
@@ -152,6 +150,14 @@ a:-webkit-any-link {
 .CardDetailsPage .detailImg {
   height: 40vh;
   width: auto;
+}
+
+.CardDetailsPage .date, .CardDetailsPage .level {
+  margin: 5%;
+}
+
+.CardDetailsPage .date span, .CardDetailsPage .level span {
+  margin: 5%;
 }
 
 .Back {

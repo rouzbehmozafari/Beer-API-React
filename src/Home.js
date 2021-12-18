@@ -3,18 +3,16 @@ import all from './images/all.jpg'
 import random from './images/random.png'
 import { Link } from 'react-router-dom';
 import {card} from './DataBase'
- 
+
 class Home extends React.Component {
-  state = {
-
-  }
-
   render() { 
 
     let randomC = card[(Math.round(Math.random()*card.length))]._id
 
     return (
+
       <div className="Home">
+
         <Link to='/All' ><div className="all">
           <img src={all} alt="all" />
           <div className="yellarea"><p>All Beers</p></div>

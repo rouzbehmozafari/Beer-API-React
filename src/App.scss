@@ -40,7 +40,6 @@ a:-webkit-any-link {
     display: grid;
     grid-template-columns: .3fr .7fr;
     padding: 3%;
-    height: 70vh;
     border-bottom: gray solid 2px;
     // place-content: center;
     .bImg{
@@ -49,9 +48,7 @@ a:-webkit-any-link {
         align-self: center;
         text-align: center;
         img{
-            max-height: 400px;
-            width: auto;
-            
+            max-height: 400px;            
         }
     }
     .infoCover {
@@ -132,6 +129,12 @@ a:-webkit-any-link {
     .detailImg{
         height: 40vh;
         width: auto;
+    }
+    .date , .level {
+        margin: 5%;
+        span {
+            margin: 5%;
+        }
     }
 
 }
