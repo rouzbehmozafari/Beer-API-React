@@ -1,16 +1,14 @@
-import { Link } from 'react-router-dom';
 import back from './images/Back.svg'
 import React from 'react';
+import {useNavigate } from 'react-router-dom';
 
 
 const Back = () => {
+    let navigate = useNavigate()
+
     return ( <div className="Back">
-        <Link to='/All' ><img className='backimg' src={back} alt="back" /></Link>
+        <img onClick={()=>{navigate(-1)}} className='backimg'  src={back} alt="back" />
     </div> );
 }
  
 export default Back;
-
-
-
- 
